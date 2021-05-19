@@ -18,6 +18,8 @@ Or you can choose a glyph from the UFO with closed contours (in this case the `s
 
 ![](pattern.png)
 
+Use `ufostroker --help`, `ufostroker noodle --help` or `ufostroker pattern --help` to see more options. (There are many.)
+
 ## To build
 
 * Install rust
