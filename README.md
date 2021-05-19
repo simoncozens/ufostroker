@@ -23,7 +23,8 @@ Use `ufostroker --help`, `ufostroker noodle --help` or `ufostroker pattern --hel
 ## To build
 
 * Install rust
-* `cargo build`
+* `cargo build --release`
+* Find the binary in `target/release`
 
 ## Acknowledgements
 
