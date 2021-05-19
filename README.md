@@ -16,7 +16,7 @@ Or you can choose a glyph from the UFO with closed contours (in this case the `s
 
 `ufostroker -i Open.ufo -o Output.ufo pattern -p star --spacing 30 --stretch true`
 
-![](star.png)
+![](pattern.png)
 
 ## To build
 
