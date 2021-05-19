@@ -1,0 +1,14 @@
+[package]
+name = "ufostroker"
+version = "0.1.0"
+authors = ["Simon Cozens <simon@simon-cozens.org>"]
+edition = "2018"
+
+[dependencies]
+norad = { git = "https://github.com/simoncozens/norad", branch="get_path" }
+MFEKmath = { git = "https://github.com/MFEK/math.rlib", branch="mfek" }
+clap = "2.33.3"
+glifparser = { git = "https://github.com/MFEK/glifparser.rlib", branch = "mfek",  features=["skia", "mfek"] }
+log = "0.4.14"
+env_logger = "0.8"
+dircpy = "0.3.6"
