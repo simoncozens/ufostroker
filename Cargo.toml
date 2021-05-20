@@ -12,3 +12,6 @@ glifparser = { git = "https://github.com/MFEK/glifparser.rlib", branch = "mfek",
 log = "0.4.14"
 env_logger = "0.8"
 dircpy = "0.3.6"
+
+[profile.release]
+lto = true
